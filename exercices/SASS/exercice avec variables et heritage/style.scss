@@ -1,0 +1,25 @@
+$info: #0059ff;
+$success: #00b894;
+$error: #d63031;
+$white: #ffffff;
+
+%flex {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    @extend %flex
+}
+
+.info {
+    background-color: $info
+}
+.error {
+    background-color: $error;
+}
+.success {
+    background-color: $success;
+}

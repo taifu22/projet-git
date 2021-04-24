@@ -1,0 +1,82 @@
+body {
+    font-family: calibri, sans-serif;
+    font-size: 12px;
+}
+*::selection {
+    background-color: rgba(134, 183, 31, 0.2);
+}
+nav > ul.menu > li {
+    display: inline;
+    margin: 10px;
+}
+nav > ul.menu > li > a {
+    color: #b9482b;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav > ul.menu > li > a:hover {
+    text-decoration: underline;
+}
+nav > ul.menu > li > a:visited {
+    color: #ff00ff;
+}
+nav > ul.menu > li:first-child::after {
+    content: "\0020 \2302";
+}
+h1 {
+    color: #bc8e14;
+}
+h2, h3, h4 {
+    color: #729e0e;
+}
+h4 {
+    text-decoration: underline;
+}
+article > h2::before {
+    content: "\2708";    
+}
+section > p {
+    padding: 10px;
+    border: 1px solid grey;
+}
+p:not(.description):not(.information) {
+    font-style: italic;
+}
+.h1 {
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    
+}
+.p1 {
+    border: 2px solid lightgreen;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.h12 {
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    
+}
+
+.p12 {
+    border: 2px solid lightgreen;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+.h11 {
+    margin: 10px;
+}
+.h122 {
+    margin: 10px;
+}

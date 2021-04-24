@@ -1,0 +1,5 @@
+Pour la creation d'une fenetre modal, il faudra donc créér le div en tout debut de mon body ou à la fin peu importe, avec 
+les attributs etc de la modal.
+par contre dans le premier div on mets un id qu'on ira le rajouter dans le bouton qu'on souhaite lui attribuer le modal.
+Donc une fois cliquez sur ce bouton le modal sera affiché dans ma page.
+Dans le bouton en question on rajoutera donc l'id dans "data-target" puis il faudra rajouter data-toggle="modal"

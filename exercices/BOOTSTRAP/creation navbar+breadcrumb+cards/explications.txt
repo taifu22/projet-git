@@ -1,0 +1,3 @@
+Dans cette exercice ca nous montre comment creer des cards avec bootstrap, trés interessant pour un site de voyange
+ou pour decrire tout simplement des photo sur une page par exemple comme facebook un blog ou autre.
+Si on voit l'image de milieu j'ai arrondis les coins, avec la class "rounded-lg"

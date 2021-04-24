@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire d'inscription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<html>
+  <body>
+    <form action="inscription.php" method="POST">
+   <fieldset>
+     <legend>informations de connexion</legend>
+      <label for="email">Adresse email</label>
+      <input type="email" name="email" id="email" required placeholder="Votre adresse email">
+
+      <label for="password">Mot de passe</label>
+      <input type="password" name="password" id="password" required placeholder="Votre mot de passe">
+      
+      <label for="picture">Photo de profil</label>
+      <input type="file" name="picture" id="picture" required>
+    </fieldset>
+    <fieldset>
+
+      <legend>Civilté</legend>
+       <div>
+        <input type="radio" id="mr" name="civilté" value="mr">
+        <label for="mr" class="inline-label">Monsieur</label>
+       </div>
+       <div>
+        <input type="radio" id="mde" name="civilté" value="mde">
+        <label for="mde" class="inline-label">Madame</label>
+        </div>
+      <label for="prenom" id="prenom" >Prenom</label>
+      <input type="text" name="prenom" id="prenom" required placeholder="votre prenom">
+      <label for="nom">Nom de famille</label>
+      <input type="text" name="nom" id="nom" required placeholder="votre nom">
+      
+    </fieldset>
+    <fieldset>
+      <legend>Adresse</legend>
+      <label for="city">Ville</label>
+      <input type="text" name="city" id="city" placeholder="Votre ville">
+      <label for="zipCode">Code postal</label>
+      <input type="number" name="zipCode" id="zipCode" placeholder="Votre code postal">
+      <label for="address">Adresse</label>
+      <textarea name="address" id="address" cols="30" rows="10" placeholder="Votre adresse"></textarea>
+  </fieldset>
+  <fieldset>
+    <legend>Jeu de societé</legend>
+    <label for="jeux">Indiquez votre jeu preferé</label>
+    <select name="jeux" id="jeux">
+      <option value="1"></option>
+      <option value="tarot">Tarot</option>
+      <option value="echecs">Echecs</option>
+      <option value="dames">Dames</option>
+      <option value="bataille-navale">Bataille navale</option>
+      <option value="petits-chevaux"> Petits-chevaux</option>
+      <option value="poker">Poker</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Parrainage</legend>
+    <label for="parrain">parrain</label>
+    <select name="parrain" id="parrain">
+      <option value="">indiquez votre parrain preferé</option>
+      <option value="Laure">Laure</option>
+      <option value="Adam">Adam</option>
+      <option value="Chloé">Chloé</option>
+      <option value="Jules">Jules</option>
+      <option value="Camille">Camille</option>
+      <option value="Raphaël">Raphaël</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Newsletter</legend>
+    <label for="news">acceptez-vous de recevoir la newsletter</label>
+    <div>
+      <input type="radio" name="newslette" id="oui" value="oui">
+      <label class="inline-label" for="oui">oui</label>
+    </div>
+    <div>
+      <input type="radio" name="newslette" id="non" value="non">
+      <label class="inline-label" for="non">non</label>
+    </div>
+  </fieldset>
+  <button type="submit">Je souhaite m'inscrire</button>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.container > div {
+   color: black;
+   background-color: lightseagreen;
+   border: 2px solid lightgray;
+   padding: 10px;
+   border-radius: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+    "logo navigation navigation navigation"
+    "content content content sidebar"
+    "footer footer footer footer"
+    ;
+}
+.logo {
+    grid-area: logo;
+    display: flex;
+}
+.navigation {
+    grid-area: navigation;
+}
+.content {
+    grid-area: content;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.footer {
+    grid-area: footer;
+}
+img {
+    margin-right: 10px;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Exemple</title>
+    <style>
+      header {
+        height: 200px;
+        background-color: cadetblue;
+      }
+      .logo, .badge {
+        background-color: coral;
+      }
+      nav {
+        height: 80px;
+        background-color: darkgoldenrod;
+      }
+      aside {
+        
+        background-color: lightslategray;
+      }
+      .article1, .article2, .article3 {
+        height: 400px;
+        background-color: deeppink;
+      }
+      .article4 {
+        height: 600px;
+        background-color: greenyellow ;
+      }
+      footer {
+        height: 200px;
+        background-color: cadetblue;
+      }
+      article {
+          border: black solid 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header class="row">
+          <div class="logo col-3 col-md-3">LOGO</div>
+          <div class="col-7 col-md-5"></div>
+          <div class="badge col-2 col-md-4">BADGE</div>
+        </header>
+        <nav class="row">
+          NAV
+        </nav>
+        <section class="row">
+           <aside class="col-4">ASIDE</aside>
+           <div class="col-8">
+              <div class="row">
+                <article class="article1 col-12 col-md-3">ARTICLE1</article>
+                <article class="article2 col-12 col-md-3">ARTICLE2</article>
+                <article class="article3 col-12 col-md-3">ARTICLE3</article>
+              </div>
+              <article class="article4 row">ARTICLE4</article>
+           </div>
+        </section>
+        <footer class="row">
+           FOOTER
+       </footer>
+      </div>
+  </body>
+</html>

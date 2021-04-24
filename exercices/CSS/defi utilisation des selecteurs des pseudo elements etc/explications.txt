@@ -1,0 +1,26 @@
+Concernant la page :
+Sauf contre-indication, la police utilisée sera Calibri
+La taille de la police sera 12 px
+Lorsqu'un élément est sélectionné, il disposera d'un fond vert transparent rgba (134,183,31, 0.2)
+
+Concernant le menu :
+Les éléments du menu seront affichés sur une seule ligne avec une marge de 10 px entre les éléments li
+Les liens seront colorés avec la couleur #B9482B et ne seront pas soulignés par défaut
+Au survol, ces liens seront soulignés
+Un lien visité sera coloré avec la couleur #FF00FF
+Les puces de la liste à puces ne seront pas affichés
+La police utilisée sera Tahoma de taille 14 px et le texte sera affiché en gras
+Une maison (content: "\0020 \2302") sera affichée après le premier lien
+
+Concernant les titres :
+Les titres de premier niveau seront colorés avec la couleur #BC8E14
+Les titres de niveau 2/3/4 seront colorés avec la couleur #729E0E
+Les titres de niveau 4 seront soulignés
+Un avion sera affiché avant les titres de niveau 2 (content: "\2708") lorsqu'ils sont contenus dans un article
+
+Concernant les paragraphes : 
+Les paragraphes étant directement des enfants d'une section disposeront d'un padding de 10 px et seront encadrés avec une bordure d'1 px grise
+Les paragraphes ne disposant pas de la classe description ou information seront écrits en italique
+
+Cocenrnant les div "destination l'europe" et "l'avis de Catherine"
+Mettre in inline block les 2 avec une hauteur de 150 px et largeur 45% de la page 

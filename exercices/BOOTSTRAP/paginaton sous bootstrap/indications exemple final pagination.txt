@@ -1,0 +1,9 @@
+Ajoutez une pagination à ce tableau, celle-ci :
+
+sera placée au centre de la page
+
+sera de taille réduite
+
+comportera 3 pages et deux boutons pour revenir à la première ou aller à la dernière page
+
+la troisième page sera considérée comme active, le bouton pour aller à la dernière page sera donc désactivé

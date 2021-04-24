@@ -1,0 +1,38 @@
+body {
+  height: 1500px;
+}
+.a {
+  background-color: paleturquoise;
+  height: 150px;
+  width: 150px;
+  
+}
+.b {
+  background-color: lightgreen;
+  height: 150px;
+  width: 150px;
+  
+}
+.c {
+  background-color: lightpink;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  bottom: 40px;
+}
+.d {
+  background-color: palegoldenrod;
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.e {
+  background-color: lightseagreen;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

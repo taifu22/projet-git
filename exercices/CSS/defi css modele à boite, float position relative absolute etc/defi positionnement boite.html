@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Blog</title>
+</head>
+<style>
+.boite {
+    border: 1px solid black;
+}
+.boite-inline {
+    display: inline;
+}
+.boite-block {
+    display:inline-block;
+    width: 45%;
+    height: 200px;
+}
+.maboite {
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+img {
+    float: left;
+    top: 25px;
+}
+.boite-6 {
+    
+    position: relative;
+    left: 100px;
+    
+}
+.boite-5 {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+}
+.p {
+    display: inline-block;
+    width: 50%;
+}
+</style>
+<body>
+
+<h1 class="boite">Demo Live</h1>
+<h2>Titre 2</h2>
+
+<div class="boite boite-inline">boite 1</div>
+<div class="boite boite-inline">boite 2</div>
+<div>
+<span class="boite boite-5">boite 4</span> <span class="boite boite-5">boite 5</span></div>
+<div class="div">
+<div class="boite boite-block">boite 6
+    <div class="boite maboite boite-6">boite 3</div></div>
+<div class="p">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Curabitur <img src="/images/827-300x300.jpg" height="150" width="150" alt=""> fringilla nisi neque, non commodo diam tincidunt quis.
+  Donec a nibh sed ipsum fermentum vehicula vel ac lectus.
+  Nulla congue feugiat tellus, ut imperdiet enim elementum a.
+  Sed sed odio eu nibh gravida ultrices.</p>
+</div>
+</div>
+</body>
+</html>

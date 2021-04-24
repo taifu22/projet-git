@@ -1,0 +1,116 @@
+CTRL+C pour copier, CTRL+V pour coller
+html, body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: yellow;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.icone-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+.fa-code {
+    color: tomato;
+    font-size: 40px;
+}
+div.liste-header > ul {
+    display: flex;
+    font-weight: bold;
+}
+div.liste-header > ul > li {
+    padding: 10px;
+    text-decoration: underline;
+}
+header > i {
+    color: red;
+}
+.content {
+    display: flex;
+    background-color:yellow
+    margin: 25px;
+}
+section {
+    width: 70%;
+    margin: 25px;
+    background-color: white;
+    padding: 10px;
+}
+
+aside {
+    width: 30%;
+    margin: 25px;
+    background-color: white;
+}
+
+.floated-left {
+    float: left;
+    margin: 10px;
+}
+.floated-right {
+    float: right;
+    margin: 10px;
+}
+.item {
+    margin: 15px;
+    background-color: thistle;
+    padding: 5px;
+}
+footer {
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.socials {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.watermark {
+    color: yellow;
+}
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 100px;
+}
+div.sitemap > ul > li > a {
+    color: yellow;
+    text-decoration: none;
+}
+.back-to-top {
+    background-color: black;
+}
+.fa-rocket  {
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ff4757;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

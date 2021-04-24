@@ -1,0 +1,93 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 552px;
+    background-color: white;
+    justify-content: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(225, 245, 243);
+    justify-content: center;
+    margin: auto;
+    height: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dis {
+    display: flex;
+    flex-direction: row;
+    height: 285px;
+}
+aside {
+    width: 50%;
+    background-color: rgb(117, 224, 214);
+    padding-top: 20px;
+    border-radius: 0 0 10px;
+    }
+.cot {
+    width: 50%;
+    background-color: rgb(160, 233, 226);
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 0 0 0 10px;
+    padding-right: 30px;
+    color: white;
+}
+.joins {
+    margin:40px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.day {
+    color: rgb(195, 224, 64);
+    font-size: 20px;
+}
+h1 {
+    color: turquoise;
+}
+.p {
+    color: gray;
+}
+aside > ul > li {
+    list-style: none;
+    padding: 2px;
+    color: white;
+}
+.why {
+    text-align: start;
+    padding-left:40px ;
+    color: white;
+}
+.bouton {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    padding: 10px;
+    margin: auto;
+    background-color: greenyellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    width: 200px;
+}
+.bouton > a {
+    text-decoration: none;
+    color: grey;
+}
+.dolar {
+    font-size: 40px;
+    color: white;
+}
+.mejor {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}

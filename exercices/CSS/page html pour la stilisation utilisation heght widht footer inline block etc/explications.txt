@@ -1,0 +1,7 @@
+En vous appuyant sur le résultat de la question précédente, modifiez le code dont vous disposez dans ce sens :
+La navigation doit disposer d'un padding de 10 px et d'un margin-bottom de 10 px
+Les éléments de liste de la navigation doivent être affichés en ligne et disposer de marges de 10 px
+Le récapitulatif et le rappel doivent être situés sur une même ligne
+Le rappel sera affiché sur 70 % de la largeur, tandis que le récapitulatif sera affiché sur 25 %, et ils auront tous deux une hauteur de 500 px
+Les articles doivent disposer d'un padding de 20 px
+Les sections et le pied de page disposeront d'un padding de 10 px

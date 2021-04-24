@@ -1,0 +1,1 @@
+pour centrer la pagination il faudra donner le justify-content-center à la balise <ul> du <nav>

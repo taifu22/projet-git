@@ -1,0 +1,5 @@
+Breadcrump, le chemin parcoru depuis la page d'accueil
+En gros une fil d'ariane c'est des liens vers les pages suivantes d'une categorie
+par exemple pour science j'ai plusieurs année et dans chaque année j'ai plusieurs trucs
+Meme à l'accueil j'ai pas que science mais autres choses aussi.
+Sur le dernier element je mets pas de link car je peut pas revenir en arriere vers lui, car c'est le dernier de notre fil.

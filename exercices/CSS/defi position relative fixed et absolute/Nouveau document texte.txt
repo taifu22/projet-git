@@ -1,0 +1,12 @@
+Nous allons définir une série de boîtes <div> sur la page et les positionner de la manière suivante :
+Les boîtes A, B et C doivent être l'une au-dessus de l'autre dans le coin supérieur gauche de la fenêtre
+La boîte C doit mordre sur la partie inférieure de la boîte B sur une surface de 40 pixels
+La boîte D doit être placée dans le coin inférieur droit de la fenêtre et ne doit pas suivre le défilement de la page
+La boîte E doit être placée dans le coin inférieur gauche de la fenêtre et doit suivre le défilement de la page
+
+Chaque <div> devra avoir une taille de 150 px par 150 px, et avoir une couleur de fond distinctive :
+a : paleturquoise
+b : lightgreen
+c : lightpink
+d : palegoldenrod
+e : lightseagreen

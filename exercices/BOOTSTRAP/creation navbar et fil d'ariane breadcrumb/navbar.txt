@@ -1,0 +1,4 @@
+Navbar en responsive
+Quand on est à plus de lg comme dimension on a le menu sur la gauche avec home etc (link sur les pages desiré à remplacer 
+avec le #).
+Quand on est sur un écran mineur de lg on a 3 petit ppint sur la droite, et si on clique on a le menu qui s'affiche

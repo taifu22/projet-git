@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BackOffice</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+</head>
+<body>
+<header>
+    <h1>O'Jardin</h1>
+</header>
+
+<table>
+    <caption>Liste des fruits et légumes disponibles à la vente. </caption>
+ <thead>
+     <tr>
+      <th>categorie</th>
+      <th>produit</th>
+      <th>quantité dispo</th>
+      <th>prix</th>
+     </tr>
+ </thead>
+ <tbody>
+  <tr>
+      <td rowspan="4" class="italique">fruits</td>
+      <td>peches</td>
+      <td>10 kg</td>
+      <td>3.3 euros</td>
+  </tr>
+  <tr>
+      <td>nechtarines</td>
+      <td>5 kg</td>
+      <td>3.39 euros</td>
+  </tr>
+  <tr>
+      <td>pommes</td>
+      <td>7 kg</td>
+      <td>2.73 euros</td>
+  </tr>
+  <tr>
+      <td>melons</td>
+      <td>15 kg</td>
+      <td>1.85 euros</td>
+  </tr>
+  <tr>
+      <td rowspan="4" class="italique">legumes</td>
+      <td>carottes</td>
+      <td>8 kg</td>
+      <td>1.85 euros</td>
+  </tr>
+  <tr>
+      <td>courgettes</td>
+      <td>7 kg</td>
+      <td>1.73 euros</td>
+  </tr>
+  <tr>
+      <td>salades</td>
+      <td>3 kg</td>
+      <td>3.43 euros</td>
+  </tr>
+  <tr>
+      <td>poivrons</td>
+      <td>3 kg</td>
+      <td>3.43 euros</td>
+  </tr>
+ </tbody>
+ <tfoot>
+    <tr>
+        <td colspan="2" class="italic">Quantité de fruits et légumes disponible</td>
+        <td colspan="2" class="bold">56kg</td>
+    </tr>
+ </tfoot>
+</table>
+
+</body>
+<style>
+    body {
+        font-family: lato;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        text-align: center;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    thead th {
+        background-color: lightcyan;
+        font-weight: bold;
+    }
+    .italique {
+        font-style: italic;
+    }
+    table, th, td {
+        border: solid 1px black;
+        border-collapse: collapse;
+    }
+</style>
+</html>
