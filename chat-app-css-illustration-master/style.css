@@ -1,0 +1,154 @@
+.she, .can, .here, .could, .that {
+  background-color: #daacda;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 8px;
+  width: 130px;
+  margin: 10px;
+  margin-top: 0.5px;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.premiere {
+  width: 350px;
+  height: 700px;
+  background: linear-gradient(magenta, violet);
+  margin: 0;
+  border-radius: 0 0 175px 175px;
+}
+
+.main {
+  position: relative;
+}
+
+.mobile {
+  height: 500px;
+  width: 250px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px white;
+}
+
+.photo {
+  background: linear-gradient(#832983, magenta);
+  height: 50px;
+  color: white;
+  font-size: 5px;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.image {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sam {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.samu {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+.ava {
+  margin-top: 5px;
+}
+
+.that {
+  margin-top: 10px;
+}
+
+.chiens {
+  margin-left: 130px;
+}
+
+.here {
+  margin-left: 90px;
+  background-color: #c8d5e0;
+}
+
+.can {
+  margin-left: 90px;
+  background-color: #c8d5e0;
+}
+
+.type {
+  background-color: white;
+  padding: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  color: gray;
+  font-size: 10px;
+  position: relative;
+}
+
+.rond {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+  color: white;
+  background-color: #360f36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+}
+
+.deuxieme {
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  right: 680px;
+  top: 13px;
+  border-radius: 10px;
+}
+
+.simple {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+}
+
+h1 {
+  color: #4d0d4d;
+}
+
+.alone {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
